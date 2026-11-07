@@ -24,14 +24,16 @@ Beim ersten Start werden Schwierigkeit und „schon gefahren“ aus dem Dashboar
 | `data/touren_edits.json` | Startwerte für Schwierigkeit / gefahren |
 | `data/duell_segmente.json`, `data/duell_zeiten.json` | Trail-Duell (Stand 29.10.2026) |
 
-Die Strava-Fahrten sind ein Abzug, keine Live-Verbindung. Neuen Stand einspielen:
-Strava-Aktivitäten (Antworten von `list_activities`) als JSON speichern und
+## Täglicher Abgleich
+Eine geplante Claude-Aufgabe läuft jeden Abend um 22:23 Uhr (Wiener Zeit):
+- holt neue MTB- und E-MTB-Fahrten aus Strava und ergänzt sie mit
+  `python3 tools/strava_to_csv.py --merge neu.json` in `data/fahrten.csv` und `data/meta.json`,
+- übernimmt Tourensammlung und Trail-Duell aus dem Dashboard auf claude.ai
+  (`data/touren.json`, `data/duell_segmente.json`, `data/duell_zeiten.json`),
+- committet und pusht nur, wenn sich etwas geändert hat.
 
-```bash
-python3 tools/strava_to_csv.py seite1.json seite2.json
-```
-
-ausführen; danach in `sw.js` die `VERSION` erhöhen.
+Die App lädt beim Öffnen immer zuerst den neuesten Stand und fällt nur ohne Internet auf den gespeicherten zurück.
+Deine eigenen Angaben (Schwierigkeit, gefahren, Notizen, eigene Touren) bleiben dabei erhalten.
 
 ## Lokal starten
 ```bash
