@@ -1,0 +1,92 @@
+/* Grundwerte (Farben, Abstände, Schriften) – ersetzen das Design-System von claude.ai.
+   Hell/dunkel richtet sich nach der Geräteeinstellung. */
+:root {
+  color-scheme: light;
+  --color-bg: #f3f5f2;
+  --color-panel: #ffffff;
+  --color-fg: #18211b;
+  --color-fg-muted: #5c6a61;
+  --color-border-line: #dde3dd;
+  --color-ok: #23864a;
+  --color-warn: #c47f0a;
+  --color-bad: #c43d2f;
+
+  --font-anthropic-sans: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-anthropic-serif: "Barlow Condensed", "Arial Narrow", sans-serif;
+
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 12px; --cds-gap-lg: 20px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px; --cds-pad-xl: 24px;
+  --cds-font-size-caption: 13px; --cds-font-size-body: 15px; --cds-font-size-heading: 17px; --cds-font-size-title: 26px;
+  --cds-font-weight-medium: 600;
+  --cds-radius: 8px;
+  --cds-dur-slow: .3s;
+  --cds-surface-popover: #ffffff;
+  --cds-border: #d3dad4;
+  --cds-shadow-popover: 0 8px 28px rgba(15, 25, 18, .16);
+  --cds-text-secondary: #5c6a61;
+  --cds-chart-grid: #e6ebe6;
+  --cds-chart-axis: #c9d1ca;
+  --cds-chart-muted: #c3ccc5;
+  --cds-chart-reference: #8a968e;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-bg: #0f1511;
+    --color-panel: #171f1a;
+    --color-fg: #e6ece7;
+    --color-fg-muted: #9aa89f;
+    --color-border-line: #2a352e;
+    --color-ok: #4cc27a;
+    --color-warn: #e6a93a;
+    --color-bad: #ef7a6c;
+    --cds-surface-popover: #1d2620;
+    --cds-border: #33403a;
+    --cds-shadow-popover: 0 8px 28px rgba(0, 0, 0, .45);
+    --cds-text-secondary: #9aa89f;
+    --cds-chart-grid: #232d27;
+    --cds-chart-axis: #34413a;
+    --cds-chart-muted: #3d4a42;
+    --cds-chart-reference: #7d8a82;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #0f1511; --color-panel: #171f1a; --color-fg: #e6ece7; --color-fg-muted: #9aa89f; --color-border-line: #2a352e;
+  --color-ok: #4cc27a; --color-warn: #e6a93a; --color-bad: #ef7a6c;
+  --cds-surface-popover: #1d2620; --cds-border: #33403a; --cds-shadow-popover: 0 8px 28px rgba(0, 0, 0, .45);
+  --cds-text-secondary: #9aa89f; --cds-chart-grid: #232d27; --cds-chart-axis: #34413a; --cds-chart-muted: #3d4a42; --cds-chart-reference: #7d8a82;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--color-bg); color: var(--color-fg);
+  font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); line-height: 1.45;
+}
+.app {
+  max-width: 1200px; margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(32px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+}
+img { max-width: 100%; }
+:focus-visible { outline: 2px solid #e8641b; outline-offset: 2px; }
+.dash-skeleton { color: var(--color-fg-muted); }
+
+/* Ergänzungen zur App */
+.mtb-gear {
+  position: absolute; top: 12px; right: 12px; z-index: 2; width: 2.5rem; height: 2.5rem; border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .25); background: rgba(0, 0, 0, .25); color: #fff; font-size: 1.2rem; cursor: pointer;
+}
+.mtb-hero-bike { margin-right: 3rem; }
+.mtb-hero-txt { padding-right: 3rem; }
+@media (max-width: 560px) {
+  main .mtb .mtb-tabs { width: 100%; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; }
+  main .mtb .mtb-tabs button { padding: .4rem .1rem; font-size: .8rem; letter-spacing: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}
+.mtb-sh { margin: var(--cds-gap-sm) 0 0; font-family: var(--font-anthropic-serif); font-size: 1.05rem; text-transform: uppercase; letter-spacing: .06em; }
+.mtb-row { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+.mtb-outline { border: 1px solid var(--color-border-line) !important; border-radius: 999px; }
+.mtb-file { display: inline-flex; align-items: center; }
+.mtb-del { font-size: var(--cds-font-size-caption); padding: 0; color: var(--color-bad); text-decoration: underline; }
+.mtb-tablewrap { -webkit-overflow-scrolling: touch; }
+.mtb-table { min-width: 0; }

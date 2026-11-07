@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Geralds Mountainbike App</title>
+<meta name="description" content="Strava-Statistik, Tourensammlung und Trail-Duell – offline als App.">
+<meta name="theme-color" content="#1f3326">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MTB">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+<main class="app">
+<div class="mtb">
+  <header class="mtb-hero" aria-label="Geralds Mountainbike App">
+    <svg class="mtb-hero-art" viewBox="0 0 1200 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <path d="M0 200 L0 120 L90 70 L170 110 L260 40 L340 95 L420 60 L520 120 L600 50 L700 105 L780 30 L880 100 L960 65 L1060 115 L1140 75 L1200 95 L1200 200 Z" fill="#20352a"/>
+      <path d="M260 40 L285 58 L270 56 L250 64 Z M600 50 L626 70 L610 66 L590 74 Z M780 30 L808 52 L792 48 L770 58 Z" fill="#e9efe9" opacity=".85"/>
+      <path d="M0 200 L0 150 L120 115 L230 145 L330 105 L450 150 L560 118 L690 155 L800 110 L930 150 L1050 120 L1200 150 L1200 200 Z" fill="#152419"/>
+      <path d="M-10 190 C 140 170, 220 196, 340 176 S 560 150, 680 170 S 900 196, 1030 165 S 1160 150, 1210 158" fill="none" stroke="#e8641b" stroke-width="4" stroke-dasharray="14 10" stroke-linecap="round"/>
+    </svg>
+    <div class="mtb-hero-txt">
+      <span class="mtb-kicker">Strava · Komoot · Instagram</span>
+      <span class="mtb-brand">Geralds <b>Mountainbike</b> App</span>
+    </div>
+    <button type="button" class="mtb-gear" id="mtb-settings" aria-label="Einstellungen">⚙</button>
+    <svg class="mtb-hero-bike" viewBox="0 0 120 70" aria-hidden="true">
+      <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="24" cy="48" r="17"/><circle cx="96" cy="48" r="17"/>
+        <path d="M24 48 L46 22 L80 22 L96 48 M46 22 L60 48 L24 48 M60 48 L80 22 M42 14 L52 14 M78 22 L74 10 L84 8"/>
+      </g>
+      <circle cx="60" cy="48" r="4" fill="#e8641b"/>
+    </svg>
+  </header>
+  <nav class="mtb-tabs" role="tablist" aria-label="Seiten">
+    <button type="button" role="tab" data-page="je-jahr" aria-selected="true">Pro Jahr</button>
+    <button type="button" role="tab" data-page="alle-jahre" aria-selected="false">Alle Jahre</button>
+    <button type="button" role="tab" data-page="touren" aria-selected="false">Touren</button>
+    <button type="button" role="tab" data-page="trail-duell" aria-selected="false">Trail-Duell</button>
+  </nav>
+  <div class="mtb-page" id="je-jahr">
+  <header class="mtb-head">
+    <div class="mtb-titlerow">
+      <h1 class="mtb-title">MTB-Saison <span id="mtb-yt">—</span></h1>
+      <div class="mtb-seg" id="mtb-years" role="group" aria-label="Jahr" data-source="mtb_jahre"></div>
+    </div>
+    <p class="mtb-take dash-skeleton" id="mtb-take" data-source="mtb_summe mtb_ytd_delta">—</p>
+  </header>
+
+  <section class="mtb-tiles" id="kennzahlen" data-fetchpriority="high">
+    <div class="mtb-tile"><span class="mtb-lab">Fahrten</span><b class="mtb-big dash-skeleton" data-source="mtb_summe" data-field="fahrten" data-where="jahr=2026">—</b><span class="mtb-sub mtb-d" data-source="mtb_ytd_delta" data-field="delta_pct" data-where="kennzahl=fahrten">—</span></div>
+    <div class="mtb-tile"><span class="mtb-lab">Kilometer</span><b class="mtb-big dash-skeleton" data-source="mtb_summe" data-field="km" data-where="jahr=2026">—</b><span class="mtb-sub mtb-d" data-source="mtb_ytd_delta" data-field="delta_pct" data-where="kennzahl=km">—</span></div>
+    <div class="mtb-tile"><span class="mtb-lab">Höhenmeter</span><b class="mtb-big dash-skeleton" data-source="mtb_summe" data-field="hm" data-where="jahr=2026">—</b><span class="mtb-sub mtb-d" data-source="mtb_ytd_delta" data-field="delta_pct" data-where="kennzahl=hm">—</span></div>
+    <div class="mtb-tile"><span class="mtb-lab">Fahrzeit (Stunden)</span><b class="mtb-big dash-skeleton" data-source="mtb_summe" data-field="stunden" data-where="jahr=2026">—</b><span class="mtb-sub mtb-d" data-source="mtb_ytd_delta" data-field="delta_pct" data-where="kennzahl=stunden">—</span></div>
+    <div class="mtb-tile"><span class="mtb-lab">Ø pro Fahrt</span><b class="mtb-big dash-skeleton" data-source="mtb_summe" data-field="km_schnitt" data-where="jahr=2026">—</b><span class="mtb-sub">km · <span data-source="mtb_summe" data-field="hm_pro_km" data-where="jahr=2026">—</span> Hm pro km</span></div>
+    <div class="mtb-tile"><span class="mtb-lab">Segment-PRs</span><b class="mtb-big dash-skeleton" data-source="mtb_summe" data-field="prs" data-where="jahr=2026">—</b><span class="mtb-sub mtb-d" data-source="mtb_ytd_delta" data-field="delta_pct" data-where="kennzahl=prs">—</span></div>
+  </section>
+
+  <section class="mtb-grid" id="jahresvergleich">
+    <div class="mtb-card mtb-wide">
+      <div class="mtb-cardhead">
+        <div><h2>Jahresvergleich</h2><p class="mtb-note">Aufsummiert über das Jahr – wo stehst du heute im Vergleich zu den Vorjahren?</p></div>
+        <div class="mtb-seg" id="mtb-metric" role="group" aria-label="Kennzahl">
+          <button type="button" data-m="km" aria-pressed="true">km</button>
+          <button type="button" data-m="hm" aria-pressed="false">Höhenmeter</button>
+          <button type="button" data-m="fahrten" aria-pressed="false">Fahrten</button>
+        </div>
+      </div>
+      <div class="mtb-chart" id="mtb-kum" data-source="mtb_kumuliert"></div>
+    </div>
+    <div class="mtb-card mtb-wide">
+      <h2>Jahre im Überblick</h2><p class="mtb-note">Ganzes Jahr und jeweils bis zum Stichtag <span id="mtb-cut" data-source="mtb_jahre" data-field="stichtag" data-row="0">—</span>. Strava-Aufzeichnungen beginnen erst am 15.12.2024.</p>
+      <div class="mtb-tablewrap">
+        <table class="mtb-table" id="mtb-years-table" data-source="mtb_jahre" data-row-key="jahr">
+          <thead><tr>
+            <th data-field="jahr">Jahr</th><th data-field="fahrten" class="num">Fahrten</th><th data-field="km" class="num">km</th><th data-field="hm" class="num">Hm</th>
+            <th data-field="stunden" class="num mtb-hide">Stunden</th><th data-field="prs" class="num mtb-hide">PRs</th>
+            <th data-field="km_bis" class="num">km bis Stichtag</th><th data-field="hm_bis" class="num">Hm bis Stichtag</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+<section class="mtb-grid">
+    <div class="mtb-card mtb-wide" id="monate">
+      <div class="mtb-cardhead">
+        <div><h2>Saisonverlauf</h2><p class="mtb-note">Pro Monat: <span class="mtb-yl">—</span> kräftig, Vorjahr hell</p></div>
+      </div>
+      <div class="mtb-chart" id="mtb-monat" data-source="mtb_monat"></div>
+    </div>
+
+    <div class="mtb-card" id="rekorde">
+      <h2>Saison-Highlights</h2><p class="mtb-note">Bestwerte einzelner Fahrten im gewählten Jahr</p>
+      <div class="mtb-recs">
+        <div class="mtb-rec"><span class="mtb-lab">Längste Fahrt</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde" data-field="wert" data-where="jahr=2026&amp;rekord=distanz">—</b><span class="mtb-sub" data-source="mtb_rekorde" data-field="info" data-where="jahr=2026&amp;rekord=distanz">—</span></div>
+        <div class="mtb-rec"><span class="mtb-lab">Meiste Höhenmeter</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde" data-field="wert" data-where="jahr=2026&amp;rekord=hoehe">—</b><span class="mtb-sub" data-source="mtb_rekorde" data-field="info" data-where="jahr=2026&amp;rekord=hoehe">—</span></div>
+        <div class="mtb-rec"><span class="mtb-lab">Höchstgeschwindigkeit</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde" data-field="wert" data-where="jahr=2026&amp;rekord=vmax">—</b><span class="mtb-sub" data-source="mtb_rekorde" data-field="info" data-where="jahr=2026&amp;rekord=vmax">—</span></div>
+        <div class="mtb-rec"><span class="mtb-lab">Meiste PRs an einem Tag</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde" data-field="wert" data-where="jahr=2026&amp;rekord=prs">—</b><span class="mtb-sub" data-source="mtb_rekorde" data-field="info" data-where="jahr=2026&amp;rekord=prs">—</span></div>
+      </div>
+    </div>
+
+    <div class="mtb-card" id="regionen">
+      <h2>Wo du fährst</h2><p class="mtb-note">Kilometer je Startort, Zahl = Fahrten</p>
+      <div class="mtb-chart" id="mtb-region" data-source="mtb_region"></div>
+    </div>
+
+    <div class="mtb-card mtb-wide" id="profil">
+      <div class="mtb-cardhead">
+        <div><h2>Tourenprofil</h2><p class="mtb-note">Jede Fahrt: Distanz gegen Höhenmeter, eingefärbt nach Steilheit (Hm pro km)</p></div>
+        <div class="mtb-legend" id="mtb-legend" data-source="mtb_fahrten"></div>
+      </div>
+      <div class="mtb-chart" id="mtb-scatter" data-source="mtb_fahrten"></div>
+    </div>
+
+    <div class="mtb-card mtb-wide" id="fahrten">
+      <div class="mtb-cardhead">
+        <div><h2>Alle Fahrten <span class="mtb-yl">—</span></h2><p class="mtb-note">Überschrift antippen zum Sortieren</p></div>
+        <input class="mtb-search" id="mtb-search" type="search" placeholder="Ort suchen …" aria-label="Fahrten durchsuchen">
+      </div>
+      <div class="mtb-tablewrap">
+        <table class="mtb-table" id="mtb-table" data-source="mtb_fahrten" data-row-key="id" data-fetchpriority="low">
+          <thead><tr>
+            <th data-field="datum"><button type="button" data-k="datum">Datum</button></th>
+            <th data-field="ort"><button type="button" data-k="ort">Ort</button></th>
+            <th data-field="km" class="num"><button type="button" data-k="km">km</button></th>
+            <th data-field="hm" class="num"><button type="button" data-k="hm">Hm</button></th>
+            <th data-field="fahrzeit" class="num mtb-hide"><button type="button" data-k="fahrzeit_min">Fahrzeit</button></th>
+            <th data-field="kmh" class="num mtb-hide"><button type="button" data-k="kmh">Ø km/h</button></th>
+            <th data-field="vmax_kmh" class="num mtb-hide"><button type="button" data-k="vmax_kmh">max km/h</button></th>
+            <th data-field="prs" class="num"><button type="button" data-k="prs">PRs</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <div class="mtb-page" id="alle-jahre" hidden>
+    <header class="mtb-head">
+      <h1 class="mtb-title">Alle Jahre</h1>
+      <p class="mtb-take dash-skeleton" id="mtb-a-take" data-source="mtb_gesamt">—</p>
+    </header>
+    <section class="mtb-tiles">
+      <div class="mtb-tile"><span class="mtb-lab">Fahrten</span><b class="mtb-big dash-skeleton" data-source="mtb_gesamt" data-field="fahrten" data-row="0">—</b><span class="mtb-sub">seit <span data-source="mtb_gesamt" data-field="seit" data-row="0">—</span></span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Kilometer</span><b class="mtb-big dash-skeleton" data-source="mtb_gesamt" data-field="km" data-row="0">—</b><span class="mtb-sub">Ø <span data-source="mtb_gesamt" data-field="km_schnitt" data-row="0">—</span> km pro Fahrt</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Höhenmeter</span><b class="mtb-big dash-skeleton" data-source="mtb_gesamt" data-field="hm" data-row="0">—</b><span class="mtb-sub"><span data-source="mtb_gesamt" data-field="everest" data-row="0">—</span>× die Höhe des Mount Everest</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Fahrzeit (Stunden)</span><b class="mtb-big dash-skeleton" data-source="mtb_gesamt" data-field="stunden" data-row="0">—</b><span class="mtb-sub">in Bewegung</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Kalorien</span><b class="mtb-big dash-skeleton" data-source="mtb_gesamt" data-field="kcal" data-row="0">—</b><span class="mtb-sub">kcal laut Strava</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Segment-PRs</span><b class="mtb-big dash-skeleton" data-source="mtb_gesamt" data-field="prs" data-row="0">—</b><span class="mtb-sub">insgesamt</span></div>
+    </section>
+
+    <section class="mtb-grid">
+      <div class="mtb-card mtb-wide">
+        <div class="mtb-cardhead">
+          <div><h2>Alle Monate</h2><p class="mtb-note">Durchgehender Verlauf seit Beginn der Aufzeichnungen</p></div>
+          <div class="mtb-seg" id="mtb-a-metric" role="group" aria-label="Kennzahl">
+            <button type="button" data-m="km" aria-pressed="true">km</button>
+            <button type="button" data-m="hm" aria-pressed="false">Höhenmeter</button>
+            <button type="button" data-m="fahrten" aria-pressed="false">Fahrten</button>
+          </div>
+        </div>
+        <div class="mtb-chart" id="mtb-a-monat" data-source="mtb_monat"></div>
+      </div>
+
+      <div class="mtb-card">
+        <h2>Bestwerte aller Zeiten</h2><p class="mtb-note">Über alle Jahre</p>
+        <div class="mtb-recs">
+          <div class="mtb-rec"><span class="mtb-lab">Längste Fahrt</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde_gesamt" data-field="wert" data-where="rekord=distanz">—</b><span class="mtb-sub" data-source="mtb_rekorde_gesamt" data-field="info" data-where="rekord=distanz">—</span></div>
+          <div class="mtb-rec"><span class="mtb-lab">Meiste Höhenmeter</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde_gesamt" data-field="wert" data-where="rekord=hoehe">—</b><span class="mtb-sub" data-source="mtb_rekorde_gesamt" data-field="info" data-where="rekord=hoehe">—</span></div>
+          <div class="mtb-rec"><span class="mtb-lab">Höchstgeschwindigkeit</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde_gesamt" data-field="wert" data-where="rekord=vmax">—</b><span class="mtb-sub" data-source="mtb_rekorde_gesamt" data-field="info" data-where="rekord=vmax">—</span></div>
+          <div class="mtb-rec"><span class="mtb-lab">Meiste PRs an einem Tag</span><b class="mtb-recv dash-skeleton" data-source="mtb_rekorde_gesamt" data-field="wert" data-where="rekord=prs">—</b><span class="mtb-sub" data-source="mtb_rekorde_gesamt" data-field="info" data-where="rekord=prs">—</span></div>
+        </div>
+      </div>
+
+      <div class="mtb-card">
+        <h2>Lieblingsreviere</h2><p class="mtb-note">Kilometer je Startort über alle Jahre, Zahl = Fahrten</p>
+        <div class="mtb-chart" id="mtb-a-region" data-source="mtb_region_gesamt"></div>
+      </div>
+
+      <div class="mtb-card mtb-wide">
+        <div class="mtb-cardhead">
+          <div><h2>Alle Fahrten seit Beginn</h2><p class="mtb-note">Überschrift antippen zum Sortieren</p></div>
+          <input class="mtb-search" id="mtb-a-search" type="search" placeholder="Ort oder Jahr suchen …" aria-label="Alle Fahrten durchsuchen">
+        </div>
+        <div class="mtb-tablewrap">
+          <table class="mtb-table" id="mtb-a-table" data-source="mtb_fahrten" data-row-key="id">
+            <thead><tr>
+              <th data-field="datum"><button type="button" data-k="datum">Datum</button></th>
+              <th data-field="ort"><button type="button" data-k="ort">Ort</button></th>
+              <th data-field="km" class="num"><button type="button" data-k="km">km</button></th>
+              <th data-field="hm" class="num"><button type="button" data-k="hm">Hm</button></th>
+              <th data-field="fahrzeit" class="num mtb-hide"><button type="button" data-k="fahrzeit_min">Fahrzeit</button></th>
+              <th data-field="kmh" class="num mtb-hide"><button type="button" data-k="kmh">Ø km/h</button></th>
+              <th data-field="vmax_kmh" class="num mtb-hide"><button type="button" data-k="vmax_kmh">max km/h</button></th>
+              <th data-field="prs" class="num"><button type="button" data-k="prs">PRs</button></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="mtb-page" id="touren" hidden>
+    <header class="mtb-head">
+      <div class="mtb-titlerow">
+        <h1 class="mtb-title">Tourensammlung</h1>
+        <button type="button" class="mtb-primary" id="mtb-t-add" hidden>+ Tour hinzufügen</button>
+      </div>
+      <p class="mtb-take" id="mtb-t-take" data-source="touren">—</p>
+    </header>
+    <div class="mtb-jobs" id="mtb-t-jobs" hidden></div>
+    <div class="mtb-tfilter">
+      <div class="mtb-seg" id="mtb-t-diff" role="group" aria-label="Schwierigkeit">
+        <button type="button" data-v="" aria-pressed="true">Alle</button>
+        <button type="button" data-v="blau" aria-pressed="false">Blau</button>
+        <button type="button" data-v="rot" aria-pressed="false">Rot</button>
+        <button type="button" data-v="schwarz" aria-pressed="false">Schwarz</button>
+      </div>
+      <div class="mtb-seg" id="mtb-t-done" role="group" aria-label="Gefahren">
+        <button type="button" data-v="" aria-pressed="true">Alle</button>
+        <button type="button" data-v="ja" aria-pressed="false">bereits gefahren</button>
+        <button type="button" data-v="nein" aria-pressed="false">noch nicht gefahren</button>
+      </div>
+      <select class="mtb-search" id="mtb-t-region" aria-label="Region"><option value="">Alle Regionen</option></select>
+      <input class="mtb-search" id="mtb-t-q" type="search" placeholder="Tour, Alm, Ort …" aria-label="Touren durchsuchen">
+    </div>
+    <p class="mtb-note" id="mtb-t-ro" hidden>Schwierigkeit, „schon gefahren“ und Notizen kannst du in dieser Ansicht nicht ändern.</p>
+    <div class="mtb-tours" id="mtb-t-list" data-source="touren"></div>
+    <div class="mtb-modal" id="mtb-t-modal" hidden role="dialog" aria-modal="true" aria-labelledby="mtb-t-mtitle">
+      <div class="mtb-mbox">
+        <div class="mtb-mhead"><h2 id="mtb-t-mtitle">Tour hinzufügen</h2><button type="button" class="mtb-x" id="mtb-t-close" aria-label="Schließen">×</button></div>
+        <div class="mtb-mtabs" role="tablist">
+          <button type="button" role="tab" data-tab="link" aria-selected="true">Link</button>
+          <button type="button" role="tab" data-tab="foto" aria-selected="false">Foto / Screenshot</button>
+          <button type="button" role="tab" data-tab="text" aria-selected="false">Text einfügen</button>
+          <button type="button" role="tab" data-tab="manuell" aria-selected="false">Manuell</button>
+        </div>
+        <div class="mtb-mbody">
+          <div data-pane="link">
+            <label class="mtb-flabel" for="mtb-f-link">Link zur Tour</label>
+            <input class="mtb-input" id="mtb-f-link" type="url" placeholder="https://www.komoot.com/tour/… oder Instagram-, Bergwelten-, Tourismus-Seite">
+            <p class="mtb-hint">Claude liest die Seite, schreibt Tourenbeschreibung und Wegbeschreibung und ergänzt fehlende Daten aus dem Internet. Instagram- und Komoot-Seiten sind oft nur mit Login lesbar – dann den Text dazukopieren oder einen Screenshot nehmen. Braucht einen API-Schlüssel (⚙).</p>
+            <details class="mtb-hint"><summary>Tourtext zusätzlich einfügen (optional)</summary><textarea class="mtb-input" id="mtb-f-linktext" rows="4"></textarea></details>
+          </div>
+          <div data-pane="foto" hidden>
+            <label class="mtb-flabel" for="mtb-f-foto">Fotos oder Screenshots (bis zu 5)</label>
+            <input class="mtb-input" id="mtb-f-foto" type="file" accept="image/*,application/pdf" multiple>
+            <div class="mtb-thumbs" id="mtb-f-thumbs"></div>
+            <p class="mtb-hint">Zeitungsartikel, Prospekt, Screenshot aus einer App – Claude liest Text und Daten aus. Was nicht drinsteht, bleibt leer statt geschätzt. Braucht einen API-Schlüssel (⚙).</p>
+            <label class="mtb-flabel" for="mtb-f-fotonote">Hinweis für Claude (optional)</label>
+            <input class="mtb-input" id="mtb-f-fotonote" type="text" placeholder="z. B. nur die zweite Tour im Artikel">
+          </div>
+          <div data-pane="text" hidden>
+            <label class="mtb-flabel" for="mtb-f-text">Tourtext</label>
+            <textarea class="mtb-input" id="mtb-f-text" rows="8" placeholder="Beschreibung, Stichworte oder kopierter Text"></textarea>
+          </div>
+          <div data-pane="manuell" hidden>
+            <div class="mtb-fgrid">
+              <label class="mtb-full">Titel<input class="mtb-input" id="mtb-m-titel" type="text"></label>
+              <label>Region<input class="mtb-input" id="mtb-m-region" type="text"></label>
+              <label>Start<input class="mtb-input" id="mtb-m-start" type="text"></label>
+              <label>km<input class="mtb-input" id="mtb-m-km" type="number" step="0.1" min="0"></label>
+              <label>Hm bergauf<input class="mtb-input" id="mtb-m-hmauf" type="number" min="0"></label>
+              <label>Hm bergab<input class="mtb-input" id="mtb-m-hmab" type="number" min="0"></label>
+              <label>Stunden<input class="mtb-input" id="mtb-m-dauer" type="number" step="0.25" min="0"></label>
+              <label>Schwierigkeit<select class="mtb-input" id="mtb-m-farbe"><option value="">–</option><option value="blau">blau</option><option value="rot">rot</option><option value="schwarz">schwarz</option></select></label>
+              <label>Einkehr<input class="mtb-input" id="mtb-m-einkehr" type="text"></label>
+              <label class="mtb-full">Tourenbeschreibung<textarea class="mtb-input" id="mtb-m-beschr" rows="3"></textarea></label>
+              <label class="mtb-full">Wegbeschreibung (ein Abschnitt pro Zeile)<textarea class="mtb-input" id="mtb-m-weg" rows="4"></textarea></label>
+              <label class="mtb-full">Link (optional)<input class="mtb-input" id="mtb-m-link" type="url"></label>
+            </div>
+          </div>
+          <p class="mtb-merr" id="mtb-t-merr" role="status"></p>
+        </div>
+        <div class="mtb-mfoot"><button type="button" class="mtb-ghost" id="mtb-t-cancel">Abbrechen</button><button type="button" class="mtb-primary" id="mtb-t-submit">Mit Claude erfassen</button></div>
+      </div>
+    </div>
+  </div>
+  <div class="mtb-page" id="trail-duell" hidden>
+    <header class="mtb-head">
+      <h1 class="mtb-title">Trail-Duell</h1>
+      <p class="mtb-take" id="mtb-d-take" data-source="duell_fakten">—</p>
+    </header>
+    <section class="mtb-grid">
+      <div class="mtb-card mtb-wide">
+        <h2>Direkte Duelle</h2><p class="mtb-note">Deine Bestzeiten gegen die Bestzeiten der Leute, denen du auf Strava folgst, auf gemeinsam gefahrenen Segmenten</p>
+        <div class="mtb-duels" id="mtb-d-duels" data-source="duell_bilanz"></div>
+      </div>
+    </section>
+    <section class="mtb-tiles">
+      <div class="mtb-tile"><span class="mtb-lab">Segmente gefahren</span><b class="mtb-big" data-source="duell_fakten" data-field="segmente" data-row="0">—</b><span class="mtb-sub">MTB und E-MTB</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Mit Vergleich</span><b class="mtb-big" data-source="duell_fakten" data-field="mit_vergleich" data-row="0">—</b><span class="mtb-sub">mindestens ein anderer Fahrer</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Platz 1</span><b class="mtb-big" data-source="duell_fakten" data-field="platz1" data-row="0">—</b><span class="mtb-sub">Segmente, auf denen du am schnellsten bist</span></div>
+      <div class="mtb-tile"><span class="mtb-lab">Noch offen</span><b class="mtb-big" data-source="duell_fakten" data-field="ausstehend" data-row="0">—</b><span class="mtb-sub">Bestenlisten noch nicht geladen</span></div>
+    </section>
+    <div class="mtb-card mtb-wide">
+      <div class="mtb-cardhead">
+        <div><h2>Segmente</h2><p class="mtb-note">Rechts dein Abstand: <span class="mtb-pos">grün mit Minus</span> = du warst schneller, <span class="mtb-neg">rot mit Plus</span> = langsamer</p></div>
+      </div>
+      <div class="mtb-tfilter">
+        <select class="mtb-search" id="mtb-d-region" aria-label="Region"><option value="">Alle Regionen</option></select>
+        <div class="mtb-seg" id="mtb-d-art" role="group" aria-label="Art">
+          <button type="button" data-v="" aria-pressed="true">Alle</button>
+          <button type="button" data-v="Abfahrt" aria-pressed="false">Abfahrt</button>
+          <button type="button" data-v="Anstieg" aria-pressed="false">Anstieg</button>
+          <button type="button" data-v="Flach" aria-pressed="false">Flach</button>
+        </div>
+        <select class="mtb-search" id="mtb-d-sort" aria-label="Sortierung">
+          <option value="ridden">Meist gefahren</option>
+          <option value="gap">Größter Rückstand zuerst</option>
+          <option value="lead">Größter Vorsprung zuerst</option>
+          <option value="name">Name A–Z</option>
+          <option value="date">Neueste Bestzeit</option>
+        </select>
+        <label class="mtb-check"><input type="checkbox" id="mtb-d-cmp" checked> nur mit Vergleich</label>
+        <input class="mtb-search" id="mtb-d-q" type="search" placeholder="Segment suchen …" aria-label="Segment suchen">
+        <span class="mtb-sub" id="mtb-d-count"></span>
+      </div>
+      <div class="mtb-segs" id="mtb-d-list" data-source="duell_vergleich duell_zeiten"></div>
+    </div>
+    <p class="mtb-foot" id="mtb-d-foot" data-source="duell_segmente">Zeiten = gestoppte Zeit laut Strava. Deine Zeit ist die schnellste aus deinen MTB- und E-MTB-Fahrten, die der anderen ihre Bestzeit aus der Strava-Bestenliste „Folge ich“; ob deren Fahrt als E-MTB erfasst war, gibt Strava nicht zuverlässig an.</p>
+  </div>
+  <p class="mtb-foot">Fast alle Fahrten sind in Strava als E-Mountainbike erfasst. Fahrten ohne Distanz sind ausgeblendet, Höchstgeschwindigkeiten über 90 km/h gelten als GPS-Fehler und zählen nicht. Steilheit: flach unter 15, hügelig 15–40, alpin ab 40 Hm pro km.</p>
+  <div class="mtb-modal" id="mtb-s-modal" hidden role="dialog" aria-modal="true" aria-labelledby="mtb-s-title">
+    <div class="mtb-mbox">
+      <div class="mtb-mhead"><h2 id="mtb-s-title">Einstellungen</h2><button type="button" class="mtb-x" id="mtb-s-close" aria-label="Schließen">×</button></div>
+      <div class="mtb-mbody">
+        <h3 class="mtb-sh">Touren mit Claude erfassen</h3>
+        <p class="mtb-hint">Mit einem eigenen API-Schlüssel von console.anthropic.com kann die App Touren aus Links, Fotos und Texten erfassen. Der Schlüssel bleibt nur auf diesem Gerät; jede Erfassung kostet ein paar Cent.</p>
+        <label class="mtb-flabel">API-Schlüssel<input class="mtb-input" id="mtb-s-key" type="password" autocomplete="off" placeholder="sk-ant-…"></label>
+        <label class="mtb-flabel">Modell<input class="mtb-input" id="mtb-s-model" type="text"></label>
+        <div class="mtb-row"><button type="button" class="mtb-primary" id="mtb-s-save">Speichern</button></div>
+        <h3 class="mtb-sh">Datensicherung</h3>
+        <p class="mtb-hint">Schwierigkeit, „schon gefahren“, Notizen und eigene Touren liegen nur auf diesem Gerät. Sichere sie ab und zu als Datei.</p>
+        <div class="mtb-row"><button type="button" class="mtb-ghost mtb-outline" id="mtb-s-export">Sicherung herunterladen</button>
+          <label class="mtb-ghost mtb-outline mtb-file">Sicherung einspielen<input type="file" id="mtb-s-import" accept="application/json,.json" hidden></label></div>
+        <p class="mtb-hint" id="mtb-s-stand"></p>
+        <p class="mtb-merr" id="mtb-s-msg" role="status"></p>
+      </div>
+    </div>
+  </div>
+  <div class="mtb-tip" id="mtb-tip" hidden></div>
+</div>
+</main>
+<script src="js/d3.min.js"></script>
+<script src="js/shim.js"></script>
+<script src="js/calcs.js"></script>
+<script src="js/app.js"></script>
+<script>
+if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>

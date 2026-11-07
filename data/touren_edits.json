@@ -1,0 +1,29 @@
+{
+ "baden-lindkogel": {
+  "farbe": "rot"
+ },
+ "sonnbrand-almtour": {
+  "farbe": "rot",
+  "gefahren": true
+ },
+ "parapluie-strecke": {
+  "farbe": "blau",
+  "gefahren": true
+ },
+ "gstatterboden-nationalpark": {
+  "farbe": "rot",
+  "gefahren": true
+ },
+ "marienseer-schwaig-uphill-flowtrail": {
+  "farbe": "rot",
+  "gefahren": true
+ },
+ "kitzhuette-siebenhuetten": {
+  "farbe": "rot",
+  "gefahren": true
+ },
+ "schwarzsattel": {
+  "farbe": "rot",
+  "gefahren": true
+ }
+}

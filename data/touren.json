@@ -1,0 +1,932 @@
+[
+ {
+  "id": "parapluie-strecke",
+  "titel": "Parapluie-Strecke",
+  "region": "Wienerwald",
+  "start": "Heideparkplatz, Perchtoldsdorfer Heide",
+  "km": 32.3,
+  "hm_auf": 753,
+  "hm_ab": 753,
+  "dauer_h": 3.0,
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": "blau",
+  "bike": "E-MTB",
+  "status": "gefahren",
+  "einkehr": "Gasthaus Zur Kugelwiese (Salzstanglwirt), bei km 5",
+  "beste_zeit": null,
+  "tourenbeschreibung": "Offizielle, beschilderte MTB-Runde von Wienerwald Tourismus ab der Perchtoldsdorfer Heide, als leicht eingestuft und überwiegend auf Forststraßen. Sie führt mit Wienblick durch den Naturpark Föhrenberge – die Schirmföhren gaben dem Parapluieberg seinen Namen – vorbei an Kugelwiese und Seewiese, über Doktorberg und Wiener Hütte und durch den Leopoldsdorfer Wald zurück nach Perchtoldsdorf. Auf deiner Fahrt am 26.09.2026 lagen außerdem der Rote-Kreuz-Singletrail und die Abfahrten am Sulzberg und Eichberg auf der Strecke. Offizielle Angaben: 753 Hm, Höhenlage 246–613 m; dein Komoot-GPX rechnet geglättet nur rund 530 Hm.",
+  "wegbeschreibung": [
+   "Start am Heideparkplatz auf der Perchtoldsdorfer Heide (rund 300 m). Nach knapp 1 km Aussichtspunkt mit Blick auf Wien.",
+   "Auf einem schönen Schotterabschnitt bergauf in den Naturpark Föhrenberge (km 2–3, rund 500 m).",
+   "Bei km 5 Gasthaus Zur Kugelwiese (Salzstanglwirt) – Einkehrmöglichkeit.",
+   "Weiter ansteigend Richtung Parapluieberg bis zum höchsten Punkt der Runde (rund 595 m) bei km 9–10.",
+   "Abfahrt auf rund 420 m (km 12), danach zweiter Anstieg auf knapp 500 m (km 16).",
+   "Abfahrt auf rund 330 m (km 20), dann ein dritter, kürzerer Anstieg auf gut 430 m (km 24).",
+   "Lange Abfahrt bis zum tiefsten Punkt der Runde (rund 250 m, km 30), dann die letzten 2 km zurück zum Heideparkplatz."
+  ],
+  "quelle": "Komoot-GPX (eigene Aufzeichnung vom 26.09.2026) und Wienerwald Tourismus",
+  "quelle_url": "https://www.lower-austria.info/tours/parapluie-route",
+  "hinzugefuegt": "30.10.2026",
+  "offiziell": "leicht (Wienerwald Tourismus)",
+  "untergrund": "70 % Schotter, 25 % Asphalt, 5 % Waldweg",
+  "notiz": "",
+  "bilder": [
+   {
+    "titel": "Fotos auf bergfex",
+    "url": "https://www.bergfex.at/sommer/niederoesterreich/touren/mountainbike/4932132,parapluie-strecke/"
+   },
+   {
+    "titel": "Tourseite Niederösterreich",
+    "url": "https://www.lower-austria.info/tours/parapluie-route"
+   },
+   {
+    "titel": "Parapluieberg (Wienerwald)",
+    "url": "https://www.wienerwald.info/en/excursions/parapluieberg"
+   }
+  ]
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": "schwarz",
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Sonnbrand-Alm, Kitzhütte",
+  "beste_zeit": null,
+  "offiziell": "schwer (Ybbstaler Alpen)",
+  "untergrund": null,
+  "quelle_url": "https://www.lower-austria.info/tours/sonnbrand-alm-route-hollensteinybbs",
+  "bilder": [
+   {
+    "titel": "Tourseite Ybbstaler Alpen",
+    "url": "https://www.ybbstaler-alpen.at/en/a-sonnbrand-alm-route-hollensteinybbs"
+   },
+   {
+    "titel": "Tourseite Niederösterreich",
+    "url": "https://www.lower-austria.info/tours/sonnbrand-alm-route-hollensteinybbs"
+   },
+   {
+    "titel": "Bergwelten (Gravel-Variante)",
+    "url": "https://www.bergwelten.com/t/m/44842"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "id": "sonnbrand-almtour",
+  "titel": "Sonnbrand-Almtour Hollenstein/Ybbs",
+  "region": "Ybbstaler Alpen",
+  "start": "Hollenstein an der Ybbs, Ortszentrum",
+  "km": 37.8,
+  "hm_auf": 1127,
+  "hm_ab": 1128,
+  "dauer_h": 3.0,
+  "tourenbeschreibung": "Offizielle MTB-Runde im Naturpark NÖ-Eisenwurzen, von den Ybbstaler Alpen als schwer eingestuft. Lange, stetige Auffahrt durch das Hammerbachtal und über die Sonnbrandstraße an der Südseite des Königsbergs, mit Blick auf Hochkar, Dürrenstein und Ötscher. Nach der Einkehr auf der Sonnbrand-Alm geht es über einen schmalen Trail zwischen den Kühen und eine schnelle Abfahrt zurück, wahlweise mit Abschnitten im Bikepark Königsberg. Höchster Punkt rund 1.390 m. Hinweis: Die Ybbstaler Alpen meldeten zuletzt eine Sperre zwischen Promau und Garnstatt – vor der Fahrt prüfen.",
+  "wegbeschreibung": [
+   "Start im Ortszentrum von Hollenstein (rund 460 m), sanft ansteigend durch das Hammerbachtal in den Naturpark NÖ-Eisenwurzen.",
+   "Vorbei am Wentsteinhammer und weiter zur Weggabelung Promau, dann auf der Forststraße bis zur Kreuzung Kitzhüttenstraße.",
+   "Rechts in die Sonnbrandstraße entlang der Südseite des Königsbergs, mit Aussicht auf Hochkar und Ötscher, bis zur Abzweigung Garnstatt (rund km 21).",
+   "Weiter bergauf zum höchsten Punkt der Runde (rund 1.390 m, etwa km 26) und zur Sonnbrand-Alm.",
+   "Über einen schmalen Trail durch die Almweiden und die lange Abfahrt zurück nach Hollenstein, auf Wunsch teilweise durch den Bikepark Königsberg."
+  ],
+  "quelle": "Komoot-GPX und Ybbstaler Alpen / Niederösterreich Werbung"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Kitzhütte, Alm Siebenhütten",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [],
+  "hinzugefuegt": "30.10.2026",
+  "id": "kitzhuette-siebenhuetten",
+  "titel": "Kitz Hütte – Siebenhütten von Hollenstein",
+  "region": "Ybbstaler Alpen",
+  "start": "Hollenstein an der Ybbs",
+  "km": 39.3,
+  "hm_auf": 1054,
+  "hm_ab": 1049,
+  "dauer_h": 2.8,
+  "tourenbeschreibung": "Runde von Hollenstein hinauf zu den Almen am Königsberg: Gleich zu Beginn steiler Anstieg auf über 1.300 m (höchster Punkt rund 1.380 m bei km 13), danach mit Gegenanstiegen über die Almen zurück und eine lange Abfahrt ins Ybbstal. Höhenmeter laut GPX, die tatsächlichen Werte liegen erfahrungsgemäß etwas höher.",
+  "wegbeschreibung": [
+   "Start in Hollenstein (rund 450 m), sofort bergauf: in 9 km auf rund 1.260 m.",
+   "Weiter zum höchsten Punkt der Runde (rund 1.380 m) bei km 12–13 im Bereich der Kitzhütte.",
+   "Wellige Passage über die Almen mit Abfahrt auf rund 1.060 m und kurzem Gegenanstieg (km 18–21) Richtung Siebenhütten.",
+   "Ab km 21 überwiegend bergab, zuletzt flach im Tal zurück nach Hollenstein."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Marienseer Schwaig (km 18), Feistritzer Schwaig (km 25)",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [],
+  "hinzugefuegt": "30.10.2026",
+  "id": "marienseer-schwaig-uphill-flowtrail",
+  "titel": "Marienseer Schwaig – Uphill Flowtrail Runde",
+  "region": "Wexl Trails & Hochwechsel",
+  "start": "St. Corona am Wechsel, Erlebnisarena",
+  "km": 34.1,
+  "hm_auf": 989,
+  "hm_ab": 978,
+  "dauer_h": 3.5,
+  "tourenbeschreibung": "Almrunde am Wechsel ab der Erlebnisarena St. Corona: lange Auffahrt zur Marienseer Schwaig mit Aussicht, weiter über die Feistritzer Schwaig auf rund 1.550 m und zurück über den Speicherteich und den Uphill-Flowtrail der Wexl Trails. Höhenmeter laut GPX.",
+  "wegbeschreibung": [
+   "Start bei der Erlebnisarena St. Corona (rund 840 m, Bike-Waschplatz bei den Wexl Trails).",
+   "Gemütlich ansteigend bis km 12 auf rund 1.050 m, dann steiler hinauf zur Marienseer Schwaig (rund 1.470 m, km 18) mit Aussichtspunkt.",
+   "Weiter zum höchsten Punkt der Runde (rund 1.560 m, km 22) und zur Feistritzer Schwaig (km 25).",
+   "Abfahrt Richtung Speicherteich St. Corona (Blick auf den Teich bei km 31).",
+   "Über den Uphill-Flowtrail der Wexl Trails und den Aufstieg zum Speichersee zurück zur Erlebnisarena."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [],
+  "hinzugefuegt": "30.10.2026",
+  "id": "gstatterboden-nationalpark",
+  "titel": "Mountainbike-Runde von Gstatterboden im Nationalpark",
+  "region": "Gesäuse",
+  "start": "Gstatterboden",
+  "km": 23.5,
+  "hm_auf": 1137,
+  "hm_ab": 1135,
+  "dauer_h": 3.1,
+  "tourenbeschreibung": "Kurze, aber sehr steile Runde im Nationalpark Gesäuse: zwei kräftige Anstiege auf je knapp 1.200 m, dazwischen eine Abfahrt bis auf rund 730 m. Highlight ist ein Bankerl mit großartiger Aussicht auf die Gesäuse-Berge. Rund 1.100 Hm auf nur 23 km – konditionell fordernd.",
+  "wegbeschreibung": [
+   "Start in Gstatterboden (rund 575 m), sofort steil bergauf.",
+   "Nach gut 7 km Aussichtsbankerl mit Blick auf das Gesäuse (rund 1.180 m).",
+   "Abfahrt auf rund 730 m (km 12).",
+   "Zweiter Anstieg bis zum höchsten Punkt der Runde (rund 1.180 m, km 16–17).",
+   "Lange Abfahrt zurück nach Gstatterboden."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Egglalm (km 2; Mitte Mai bis Ende Oktober, Mi/Do Ruhetag)",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [
+   {
+    "titel": "Egglalm (Oberösterreich)",
+    "url": "https://www.oberoesterreich.at/oesterreich-gastronomie/detail/101396/egglalm.html"
+   },
+   {
+    "titel": "Egglalm (Bergwelten)",
+    "url": "https://www.bergwelten.com/h/egglalm"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "id": "hengstpass-eggl-alm",
+  "titel": "Hengstpass – Eggl-Alm Runde",
+  "region": "Nationalpark Kalkalpen",
+  "start": "Zickerreith am Hengstpass (Rosenau am Hengstpaß)",
+  "km": 37.2,
+  "hm_auf": 1229,
+  "hm_ab": 1224,
+  "dauer_h": 4.0,
+  "tourenbeschreibung": "Almrunde vom Hengstpass im Nationalpark Kalkalpen mit zwei großen Anstiegen und Waldabfahrten. Gleich zu Beginn liegt die Egglalm am historischen Proviantweg, über den früher Eisen vom Erzberg transportiert wurde. Danach Abfahrt zum Lamberger Teich, Anstieg auf knapp 1.300 m, tiefster Punkt im Tal bei rund 630 m und zweiter Anstieg über den Kleinerberg zurück zur Passhöhe. Höhenmeter laut GPX.",
+  "wegbeschreibung": [
+   "Start bei der Zickerreith am Hengstpass (rund 990 m), nach 2 km Egglalm.",
+   "Abfahrt zum Lamberger Teich (rund 790 m, km 4–6).",
+   "Anstieg zum höchsten Punkt der Runde (rund 1.290 m, km 11–12), danach Abfahrt durch den Wald.",
+   "Weiter bergab bis zum tiefsten Punkt (rund 630 m, etwa km 21).",
+   "Zweiter langer Anstieg über den Kleinerberg (km 26) auf rund 1.230 m (km 29–30) und durch den Wald zurück zum Hengstpass."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Hameau-Hütte (Schwarzenbergpark, km 19)",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [],
+  "hinzugefuegt": "30.10.2026",
+  "id": "panorama-nussdorf",
+  "titel": "Panorama – Schöner Ausblick Runde von Wien Nußdorf",
+  "region": "Wienerwald",
+  "start": "Wien Nußdorf",
+  "km": 43.7,
+  "hm_auf": 762,
+  "hm_ab": 764,
+  "dauer_h": 3.8,
+  "tourenbeschreibung": "Stadtnahe Wienerwald-Runde ab Nußdorf: durch die Kahlenberger Weinberge mit Wienblick, über die Kahlenbergerdorf-Strecke in den Wald, am Hameau im Schwarzenbergpark vorbei über den Bärlauchtrail zum Rosskopf und durch die Weinreben zurück. Höhenmeter laut GPX.",
+  "wegbeschreibung": [
+   "Start in Wien Nußdorf (rund 170 m), hinauf durch die Kahlenberger Weinberge mit zwei Aussichtspunkten auf Wien (km 2–4).",
+   "Über die Kahlenbergerdorf-Strecke (km 7) in den Wienerwald, wellig zwischen 340 und 410 m.",
+   "Aussichtspunkt bei km 18, gleich danach Hameau-Hütte und Wiese im Schwarzenbergpark.",
+   "Bärlauchtrail (km 19–20) und Blick vom Rosskopf (km 21), höchster Abschnitt der Runde um 470–500 m bis etwa km 30.",
+   "Lange Abfahrt, zuletzt durch die Weinreben (km 37) zurück nach Nußdorf."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [],
+  "hinzugefuegt": "30.10.2026",
+  "id": "schwarzsattel",
+  "titel": "Mountainbike-Tour nach Schwarzsattel",
+  "region": "Gesäuse",
+  "start": "Raum Weißenbach / St. Gallen (Steiermark)",
+  "km": 33.1,
+  "hm_auf": 984,
+  "hm_ab": 979,
+  "dauer_h": 3.3,
+  "tourenbeschreibung": "Runde in der Region St. Gallen mit einem kräftigen Anstieg gleich am Anfang hinauf zum Schwarzsattel (rund 1.080 m), danach wellig mit einem zweiten Anstieg auf knapp 900 m und langer Abfahrt zum Ausgangspunkt. Höhenmeter laut GPX.",
+  "wegbeschreibung": [
+   "Start auf rund 500 m, nach kurzer Einrollphase steil bergauf.",
+   "Bei km 8 Schwarzsattel, der höchste Punkt der Runde (rund 1.080 m).",
+   "Abfahrt auf rund 690 m (km 12).",
+   "Welliger Mittelteil mit zweitem Anstieg auf knapp 880 m (km 21).",
+   "Ab km 22 überwiegend bergab zurück zum Start."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": "schwarz",
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Orte im Ledrotal, Trinkwasserstelle am Ledrosee",
+  "beste_zeit": null,
+  "offiziell": "schwer / Experte (Komoot)",
+  "untergrund": null,
+  "quelle_url": "https://www.komoot.com/fr-fr/smarttour/e1314811695/ponale-lac-de-ledro-et-colle-di-santo-stefano-depuis-riva-del-garda",
+  "bilder": [
+   {
+    "titel": "Komoot-Tourseite",
+    "url": "https://www.komoot.com/fr-fr/smarttour/e1314811695/ponale-lac-de-ledro-et-colle-di-santo-stefano-depuis-riva-del-garda"
+   },
+   {
+    "titel": "Ponale & Ledro (360gardalife)",
+    "url": "https://360gardalife.com/en/route/riva-del-garda-en/bike/lake-garda-ponale-road-lake-ledro-emtb"
+   },
+   {
+    "titel": "Instagram: Ponale & Ledro",
+    "url": "https://www.instagram.com/reel/DM0Q1AjCEcH/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "id": "ponale-ledro-santo-stefano",
+  "titel": "Ponale, Lago di Ledro und Colle di Santo Stefano",
+  "region": "Gardasee",
+  "start": "Riva del Garda, Parkplatz",
+  "km": 37.5,
+  "hm_auf": 1130,
+  "hm_ab": 1130,
+  "dauer_h": 3.4,
+  "tourenbeschreibung": "Klassiker am Gardasee: über die in den Fels gehauene historische Ponale-Straße hinauf ins Ledrotal, vorbei an Biacesa und Prè di Ledro zum Lago di Ledro mit seinem Pfahlbaudorf. Weiter zum Colle di Santo Stefano mit Schützengräben und Stellungen aus dem Ersten Weltkrieg und zurück nach Riva. Komoot stuft die Runde als Expertentour ein (37,5 km, 1.130 Hm). Auf Instagram gespeichert ist auch die kürzere Variante ohne Santo Stefano: auf dem Ponale-Weg ins Ledrotal, einmal um den See und auf gleichem Weg zurück (rund 35 km, 700 Hm).",
+  "wegbeschreibung": [
+   "Start am Parkplatz in Riva del Garda, nach gut 1,5 km Beginn des Ponale-Wegs.",
+   "Auf dem Ponale-Weg stetig bergauf hoch über dem Gardasee bis Biacesa di Ledro (rund 450 m, km 7).",
+   "Weiter über Prè di Ledro (km 9) zum Pfahlbaudorf am Ledrosee (rund 680 m, km 12).",
+   "Auf dem Radweg am Ledrosee entlang (km 15, Trinkwasserstelle).",
+   "Anstieg zum Colle di Santo Stefano mit Kriegsdenkmal (höchster Punkt rund 735 m, km 19).",
+   "Langer Rückweg und Abfahrt, ab km 28 steil hinunter nach Riva del Garda."
+  ],
+  "quelle": "Komoot-GPX und Komoot-Tourseite"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": "gefahren",
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": null,
+  "bilder": [],
+  "hinzugefuegt": "30.10.2026",
+  "id": "baden-lindkogel",
+  "titel": "Baden Lindkogel Tour",
+  "region": "Wienerwald",
+  "start": "Laxenburg",
+  "km": 58.2,
+  "hm_auf": 785,
+  "hm_ab": 784,
+  "dauer_h": 3.5,
+  "tourenbeschreibung": "Lange Runde vom Wiener Becken in den südlichen Wienerwald: gut 20 km flach Richtung Baden, dann der Anstieg auf den Lindkogel (höchster Punkt rund 820 m) und eine lange Abfahrt zurück. Du bist sie am 13.07.2025 gefahren (Strava: 67 km, 1.200 Hm mit Varianten). Höhenmeter laut GPX.",
+  "wegbeschreibung": [
+   "Start in Laxenburg (rund 180 m), rund 20 km flach Richtung Baden.",
+   "Ab km 20 Anstieg, ab km 25 steiler hinauf zum Lindkogel.",
+   "Höchster Punkt der Runde (rund 820 m) bei km 31.",
+   "Abfahrt über rund 610 m (km 35) zurück ins Tal (km 40).",
+   "Flach zurück nach Laxenburg."
+  ],
+  "quelle": "Komoot-GPX"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": "rot",
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Gschwandtner Hütte (km 12)",
+  "beste_zeit": null,
+  "offiziell": "mittelschwer (Komoot)",
+  "untergrund": null,
+  "quelle_url": "https://www.komoot.com/fr-fr/smarttour/e815523685/schafberg-mountainbike-tour",
+  "bilder": [
+   {
+    "titel": "Komoot-Tourseite",
+    "url": "https://www.komoot.com/fr-fr/smarttour/e815523685/schafberg-mountainbike-tour"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "id": "schafberg-tour",
+  "titel": "Schafberg-Mountainbike-Tour",
+  "region": "Salzkammergut",
+  "start": "St. Wolfgang, Parkplatz 3 / Zentrum",
+  "km": 47.6,
+  "hm_auf": 820,
+  "hm_ab": 820,
+  "dauer_h": 3.8,
+  "tourenbeschreibung": "Aussichtsreiche Runde um den Schafberg, auf Komoot eine der beliebtesten MTB-Touren Oberösterreichs und als mittelschwer eingestuft. Vorbei am Schwarzensee hinauf zur Gschwandtner Hütte, mit Blick auf den Mondsee am höchsten Abschnitt (rund 1.020 m), dann hinunter zum Wolfgangsee und am Ufer über Strobl zurück.",
+  "wegbeschreibung": [
+   "Start in St. Wolfgang (Parkplatz 3 / Zentrum, rund 555 m).",
+   "Ansteigend zum Schwarzensee (Aussicht bei km 9–10) und zur Gschwandtner Hütte (rund 750 m, km 12).",
+   "Weiter hinauf zum höchsten Abschnitt der Runde (rund 1.000 m, km 16–18), Blick auf den Mondsee (km 20).",
+   "Abfahrt hinunter zum Wolfgangsee (Bucht bei km 29).",
+   "Flach am Seeufer über Strobl (Blick auf den Wolfgangsee bei km 42) zurück nach St. Wolfgang."
+  ],
+  "quelle": "Komoot-GPX und Komoot-Tourseite"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": "rot",
+  "bike": "MTB / E-MTB",
+  "status": "gefahren",
+  "notiz": "",
+  "einkehr": "Jausenstation Mooshöhe (km 14), Anlaufalm (km 24; 1. Mai bis 26. Oktober, Di Ruhetag)",
+  "beste_zeit": null,
+  "offiziell": "mittel (TV Gesäuse)",
+  "untergrund": null,
+  "quelle_url": "https://www.steiermark.com/de/Gesaeuse/Urlaub-planen/Tourenportal/Anlaufalm-Anbindung-Hintergebirgsradweg_tour_88063178",
+  "bilder": [
+   {
+    "titel": "Tourseite mit Galerie (TV Gesäuse)",
+    "url": "https://www.steiermark.com/de/Gesaeuse/Urlaub-planen/Tourenportal/Anlaufalm-Anbindung-Hintergebirgsradweg_tour_88063178"
+   },
+   {
+    "titel": "Anlaufalm (Oberösterreich)",
+    "url": "https://guide.oberoesterreich.at/en/oesterreich-gastronomie/detail/430005176/anlaufalm.html"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "id": "anlaufalm",
+  "titel": "Anlaufalm Runde von Weißenbach-St. Gallen",
+  "region": "Gesäuse",
+  "start": "Weißenbach-St. Gallen",
+  "km": 47.1,
+  "hm_auf": 1549,
+  "hm_ab": 1540,
+  "dauer_h": 5.5,
+  "tourenbeschreibung": "Grenzüberschreitende MTB-Tour aus der Steiermark auf die oberösterreichische Anlaufalm im Nationalpark Kalkalpen, vom TV Gesäuse als mittel eingestuft. Über den Pfarreralmweg in die Unterlaussa und auf dem Hintergebirgsradweg auf den Spuren der alten Waldbahn bis zur Alm (980 m) mit Blick auf Reichenstein, Buchstein und Tamischbachturm. Der Rückweg auf derselben Strecke hat noch einmal ordentlich Höhenmeter. Du bist sie am 22.08.2026 gefahren.",
+  "wegbeschreibung": [
+   "Start in Weißenbach (rund 430 m), auf dem R7-Radweg bergauf nach St. Gallen, nach dem Ortszentrum rechts ab.",
+   "Über den Pfarreralmweg in die Unterlaussa zum Knappenhaus (km 10).",
+   "Anstieg zur Jausenstation Mooshöhe (rund 850 m, km 14).",
+   "Über den Wegweiser am Hirschkogel (km 19) zur Aussicht auf Reichenstein, Buchstein und Tamischbachturm (km 22) und zum Anlaufalm-Gatter.",
+   "Letzter Aufstieg zur Anlaufalm (rund 980 m, km 24) – Umkehrpunkt.",
+   "Rückweg auf derselben Strecke mit Gegenanstiegen zurück nach Weißenbach."
+  ],
+  "quelle": "Komoot-GPX und TV Gesäuse"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Edelweißhütte und viele weitere Hütten",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/DeTb0vQszza/",
+  "bilder": [
+   {
+    "titel": "Instagram: Bilder der Tour",
+    "url": "https://www.instagram.com/p/Der43OJjJhJ/"
+   },
+   {
+    "titel": "Instagram: Reel",
+    "url": "https://www.instagram.com/reel/DeTb0vQszza/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 35,
+  "hm_auf": 1100,
+  "hm_ab": 1100,
+  "dauer_h": null,
+  "id": "seiser-alm-huettenrunde",
+  "titel": "Seiser Alm Hüttenrunde",
+  "region": "Südtirol & Dolomiten",
+  "start": "Seiser Alm",
+  "tourenbeschreibung": "Große Rundtour quer über die Seiser Alm, die größte Hochalm Europas, mit Schlern, Langkofel und Plattkofel fast ständig im Blick. Unterwegs liegen unzählige Hütten, ein Tipp ist die Edelweißhütte. Besonders schön im Herbst, wenn sich die Almwiesen golden färben.",
+  "wegbeschreibung": [
+   "Rundtour über die Seiser Alm vorbei an zahlreichen Hütten und Aussichtspunkten.",
+   "Einkehrtipp: Edelweißhütte mit Panoramablick.",
+   "GPX-Track laut Beitrag auf der Website von @fritz_ebike_adventures (Link im Instagram-Profil)."
+  ],
+  "quelle": "Instagram @fritz_ebike_adventures"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Gampenalm, Geisler Alm",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/DP4ET2nDB4Z/",
+  "bilder": [
+   {
+    "titel": "Instagram: Reel",
+    "url": "https://www.instagram.com/reel/DP4ET2nDB4Z/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 31,
+  "hm_auf": 1350,
+  "hm_ab": 1350,
+  "dauer_h": 3.0,
+  "id": "villnoess-geislerspitzen",
+  "titel": "Villnösstal – Gampenalm und Geisler Alm",
+  "region": "Südtirol & Dolomiten",
+  "start": "Tourismus Center im Villnösstal",
+  "tourenbeschreibung": "Tour zu den Geislerspitzen mit zwei Almhütten: über die ausgeschilderte MTB-Strecke zur Kirche St. Johann in Ranui bei St. Magdalena, über die Forststraße zur Gampenalm und im finalen Anstieg hinauf zur Geisler Alm direkt unter den Geislerspitzen mit 360°-Panorama. Zurück über einen Höhenweg ins Tal. Rund 3 Stunden reine Fahrzeit.",
+  "wegbeschreibung": [
+   "Start am Tourismus Center im Villnösstal, auf der ausgeschilderten MTB-Strecke zur Kirche St. Johann bei St. Magdalena mit Blick auf die Geislerspitzen.",
+   "Weiter Richtung Parkplatz Zans und auf der Forststraße hinauf zur Gampenalm.",
+   "Finaler Anstieg zur Geisler Alm unter den Geislerspitzen.",
+   "Rückweg über einen Höhenweg und kleinere Wege ins Tal. Tipp: kurzer Abstecher zu Fuß auf den Adolf-Munkel-Weg."
+  ],
+  "quelle": "Instagram @fritz_ebike_adventures"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": "schwarz",
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "zahlreiche Hütten am Weg",
+  "beste_zeit": "Sommer (Liftbetrieb)",
+  "offiziell": "schwer (Alta Badia / Dolomiti Superski)",
+  "untergrund": "Schotter, Wege, Singletrails, Asphalt, Bergbahnen",
+  "quelle_url": "https://www.dolomitisuperski.com/de/outdoor~Sellaronda-MTB-TOUR-senso-orario_802588358~",
+  "bilder": [
+   {
+    "titel": "Instagram: @sellaronda_mtb",
+    "url": "https://www.instagram.com/p/DMM8I4Xu4Hy/"
+   },
+   {
+    "titel": "Instagram: @moritz.reulein",
+    "url": "https://www.instagram.com/reel/DLPPnHQNYc1/"
+   },
+   {
+    "titel": "Instagram: @singletracks",
+    "url": "https://www.instagram.com/p/DPT3FTVDcPs/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 59.7,
+  "hm_auf": 800,
+  "hm_ab": null,
+  "dauer_h": 7.0,
+  "id": "sellaronda-mtb",
+  "titel": "Sellaronda MTB Tour",
+  "region": "Südtirol & Dolomiten",
+  "start": "Eines der vier Täler: Gröden, Alta Badia, Arabba oder Fassatal (z. B. Plan de Gralba)",
+  "tourenbeschreibung": "Umrundung des Sellamassivs an einem Tag. Im Uhrzeigersinn erledigen sieben Bergbahnen den Großteil der rund 4.000 Höhenmeter, selbst zu treten sind nur etwa 800 Hm. Gegen den Uhrzeigersinn sind es rund 1.020 Hm, die Strecke ist technisch anspruchsvoller (S3). Beide Richtungen sind offiziell als schwer eingestuft, die Abfahrten mischen Singletrails und Schotterstraßen. Je nach Können 5–9 Stunden inklusive Mittagspause. Tipp aus den Beiträgen: kostenloser Parkplatz in Plan de Gralba (Str. Plan de Gralba 14) als Startpunkt, kleiner Bikepark mit Jump- und Family-Line am Ende. Die offizielle Karte und den GPX-Track gibt es auf sellaronda-mtb.com.",
+  "wegbeschreibung": [
+   "Start in einem der vier Täler, z. B. in Wolkenstein oder Plan de Gralba (Gröden).",
+   "Der Sellaronda-MTB-Beschilderung folgen (gegen den Uhrzeigersinn grün beschildert).",
+   "Bergauf meist mit den Bergbahnen, bergab über Trails und Forststraßen rund um das Sellamassiv.",
+   "Zum Abschluss optional über die Easy Jump Line hinunter nach Plan de Gralba."
+  ],
+  "quelle": "Instagram (@sellaronda_mtb, @moritz.reulein, @singletracks, @trentinodascoprire, @altoadigedascoprire) und Alta Badia / Dolomiti Superski"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/DOdzjnQCNCL/",
+  "bilder": [
+   {
+    "titel": "Instagram: Reel",
+    "url": "https://www.instagram.com/reel/DOdzjnQCNCL/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 56,
+  "hm_auf": 2500,
+  "hm_ab": null,
+  "dauer_h": null,
+  "id": "kronplatz-fanes-cortina",
+  "titel": "Kronplatz – Naturpark Fanes – Cortina",
+  "region": "Südtirol & Dolomiten",
+  "start": "Kronplatz",
+  "tourenbeschreibung": "Große Dolomiten-Tour vom Kronplatz durch den Naturpark Fanes bis nach Cortina d’Ampezzo, laut Beitrag eine der spektakulärsten Touren der Dolomiten. 56 km und 2.500 Hm – eine lange, fordernde Tagestour. Den GPX-Track gibt es laut Beitrag in den Kommentaren oder auf sendtwitchhd.com.",
+  "wegbeschreibung": [
+   "Start am Kronplatz.",
+   "Durch den Naturpark Fanes.",
+   "Abfahrt nach Cortina d’Ampezzo."
+  ],
+  "quelle": "Instagram @sendtwitchhd"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/Dc1UX_EM_3z/",
+  "bilder": [
+   {
+    "titel": "Instagram: Top 3 Gardasee",
+    "url": "https://www.instagram.com/reel/Dc1UX_EM_3z/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 50,
+  "hm_auf": 900,
+  "hm_ab": 900,
+  "dauer_h": 3.5,
+  "id": "gardasee-bardolino-torri",
+  "titel": "Bardolino – Garda – Torri del Benaco",
+  "region": "Gardasee",
+  "start": "Bardolino",
+  "tourenbeschreibung": "Panoramarunde am Ostufer des Gardasees durch Weinberge und kleine Bergdörfer mit immer neuen Blicken auf den See; zwischendurch geht es hinunter ans Wasser und durch einige der schönsten Orte der Region. Rund 3–4 Stunden.",
+  "wegbeschreibung": [
+   "Start in Bardolino, durch die Weinberge hinauf.",
+   "Über kleine Bergdörfer oberhalb von Garda mit Seeblick.",
+   "Hinunter ans Ufer nach Torri del Benaco und zurück nach Bardolino."
+  ],
+  "quelle": "Instagram @fritz_ebike_adventures (Top 3 Gardasee)"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/Dc1UX_EM_3z/",
+  "bilder": [
+   {
+    "titel": "Instagram: Top 3 Gardasee",
+    "url": "https://www.instagram.com/reel/Dc1UX_EM_3z/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 30,
+  "hm_auf": 900,
+  "hm_ab": 900,
+  "dauer_h": 3.0,
+  "id": "gardasee-punta-larici",
+  "titel": "Punta Larici",
+  "region": "Gardasee",
+  "start": "Riva del Garda oder Torbole",
+  "tourenbeschreibung": "Über die legendäre alte Ponalestraße hoch über dem Gardasee und weiter durch kleine Orte und Wälder zur Punta Larici. Die letzten Meter zum Aussichtspunkt geht man zu Fuß – oben wartet ein 360°-Panorama über den See.",
+  "wegbeschreibung": [
+   "Start in Riva oder Torbole, auf der Ponalestraße bergauf.",
+   "Durch kleine Orte und Wälder Richtung Punta Larici.",
+   "Die letzten Meter zu Fuß zum Aussichtspunkt, Rückweg zum Gardasee."
+  ],
+  "quelle": "Instagram @fritz_ebike_adventures (Top 3 Gardasee)"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/Dc1UX_EM_3z/",
+  "bilder": [
+   {
+    "titel": "Instagram: Top 3 Gardasee",
+    "url": "https://www.instagram.com/reel/Dc1UX_EM_3z/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 25,
+  "hm_auf": 600,
+  "hm_ab": 600,
+  "dauer_h": 2.0,
+  "id": "gardasee-lago-di-tenno",
+  "titel": "Lago di Tenno",
+  "region": "Gardasee",
+  "start": "Riva del Garda",
+  "tourenbeschreibung": "Von Riva vorbei an historischen Burgen, durch kleine Orte und über Serpentinen hinauf zum türkisblauen Lago di Tenno. Zurück durch Weinberge und mediterrane Landschaft an den Gardasee. Rund 2 Stunden.",
+  "wegbeschreibung": [
+   "Start in Riva del Garda, vorbei an Burganlagen und durch kleine Orte.",
+   "Über Serpentinen hinauf zum Lago di Tenno.",
+   "Rückfahrt durch die Weinberge nach Riva."
+  ],
+  "quelle": "Instagram @fritz_ebike_adventures (Top 3 Gardasee)"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": null,
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/DKuyfRaM4i5/",
+  "bilder": [
+   {
+    "titel": "Instagram: Reel",
+    "url": "https://www.instagram.com/reel/DKuyfRaM4i5/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": null,
+  "hm_auf": null,
+  "hm_ab": null,
+  "dauer_h": null,
+  "id": "passo-tremalzo",
+  "titel": "Passo Tremalzo",
+  "region": "Gardasee",
+  "start": "Gardasee",
+  "tourenbeschreibung": "Legendärer Anstieg vom Gardasee auf den Passo Tremalzo über eine Militärstraße aus dem Ersten Weltkrieg: fast 2.000 Hm auf rund 25 km, Rampen über 25 %, loses Geröll, dunkle Tunnel und viele Kehren. Im Beitrag ging es auf Schotter bergauf und über Trails bergab. Länge und Höhenmeter der ganzen Runde stehen nicht im Beitrag.",
+  "wegbeschreibung": [
+   "Vom Gardasee auf der alten Militärstraße hinauf, durch Tunnel und Kehren.",
+   "Steile Rampen mit losem Untergrund bis zum Passo Tremalzo.",
+   "Abfahrt über Trails (Route im Beitrag nicht angegeben)."
+  ],
+  "quelle": "Instagram @mieskuh"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "trail_farbe": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "einkehr": "Kienberghütte (höchster Punkt), Moosalm",
+  "beste_zeit": null,
+  "offiziell": null,
+  "untergrund": null,
+  "quelle_url": "https://www.instagram.com/reel/DbbKqy0MF0k/",
+  "bilder": [
+   {
+    "titel": "Instagram: Reel",
+    "url": "https://www.instagram.com/reel/DbbKqy0MF0k/"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "km": 48,
+  "hm_auf": 750,
+  "hm_ab": 750,
+  "dauer_h": 3.75,
+  "id": "salzkammergut-seen-tour",
+  "titel": "Salzkammergut Seen-Tour",
+  "region": "Salzkammergut",
+  "start": "Wolfgangsee (alternativ Mondsee)",
+  "tourenbeschreibung": "Seenrunde mit Bergpanorama: kurze Panoramaauffahrt zum Schwarzensee, vorbei an der Moosalm auf Forstwegen bis zum höchsten Punkt bei der Kienberghütte, dann eine Abfahrt mit Blick auf den türkisblauen Mondsee und zurück an den Wolfgangsee mit langer Uferfahrt und Badestellen. Ähnlich der Schafberg-Mountainbike-Tour in deiner Sammlung, aber mit Einkehr auf der Kienberghütte.",
+  "wegbeschreibung": [
+   "Start am Wolfgangsee, kurze Panoramaauffahrt zum Schwarzensee.",
+   "Vorbei an der Moosalm über Forstwege zum höchsten Punkt, Pause auf der Kienberghütte.",
+   "Abfahrt mit Blick auf den Mondsee.",
+   "Zurück an den Wolfgangsee und am Ufer entlang zum Start."
+  ],
+  "quelle": "Instagram @fritz_ebike_adventures"
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "beste_zeit": null,
+  "untergrund": null,
+  "quelle": "MOUNTAINBIKE-Magazin 04/2025, „Vier Touren im Reich des Ortlers“ (Foto vom 30.10.2026)",
+  "quelle_url": "https://www.bike-x.de/mtb/touren",
+  "bilder": [
+   {
+    "titel": "MOUNTAINBIKE-Trailguides",
+    "url": "https://www.bike-x.de/mtb/touren"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "region": "Vinschgau & Ortler",
+  "id": "ortler-goldsee-trail",
+  "titel": "Goldsee-Trail",
+  "start": "Stilfser Joch (Auffahrt per Shuttle oder aus eigener Kraft)",
+  "km": 31,
+  "hm_auf": 700,
+  "hm_ab": 2960,
+  "dauer_h": 3.5,
+  "trail_farbe": "rot",
+  "offiziell": "Kondition mittel bis extrem (ohne Shuttle), Fahrtechnik mittel S2 (MOUNTAINBIKE)",
+  "einkehr": "Hotel Dreisprachenspitze, Furkelhütte",
+  "tourenbeschreibung": "Panoramatour am Stilfser Joch in einer neuen Variante nach Trafoi, die ausgewaschene Abschnitte umfährt. Vom Joch kurz hinauf zur Dreisprachenspitze, dann entlang historischer Schützengräben Richtung Prad und über den ruhigen Bimbam-Trail nach Trafoi. Mit dem Sessellift zur Furkelhütte und über S1–S2-Trails am Monte della Guardia sowie Sieben-Brunnen- und Knebel-Hans-Trail zurück ins Tal. Wer das Joch selbst hinauffährt, kommt auf fast 3.000 Hm.",
+  "wegbeschreibung": [
+   "Auffahrt zum Stilfser Joch per Shuttle oder mit Pedalkraft.",
+   "Kurz hinauf zur Dreisprachenspitze, Espresso am gleichnamigen Hotel.",
+   "Entlang historischer Schützengräben Richtung Prad – die ersten Meter mit großem Panorama; wegen vieler Wanderer möglichst vor 9 Uhr fahren.",
+   "Nach einer offenen Hangpassage auf den Bimbam-Trail Richtung Trafoi (Wiesen und Waldtrails).",
+   "In Trafoi mit dem Sessellift zur Furkelhütte (Mittagspause des Lifts beachten).",
+   "Ab der Hütte S1–S2-Trails über den Monte della Guardia, zum Schluss Sieben-Brunnen- und Knebel-Hans-Trail."
+  ]
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "beste_zeit": null,
+  "untergrund": null,
+  "quelle": "MOUNTAINBIKE-Magazin 04/2025, „Vier Touren im Reich des Ortlers“ (Foto vom 30.10.2026)",
+  "quelle_url": "https://www.bike-x.de/mtb/touren",
+  "bilder": [
+   {
+    "titel": "MOUNTAINBIKE-Trailguides",
+    "url": "https://www.bike-x.de/mtb/touren"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "region": "Vinschgau & Ortler",
+  "id": "ortler-madritschjoch",
+  "titel": "Madritschjoch",
+  "start": "Sulden, Gondel zur Schaubachhütte (2.610 m)",
+  "km": 36,
+  "hm_auf": 630,
+  "hm_ab": 2500,
+  "dauer_h": 4.5,
+  "trail_farbe": "schwarz",
+  "offiziell": "Kondition mittel bis schwer, Fahrtechnik mittel bis schwer S2–S3 (MOUNTAINBIKE)",
+  "einkehr": "Madritschhütte, Zufallhütte",
+  "tourenbeschreibung": "Einer der wenigen MTB-Klassiker über 3.000 Meter: von Sulden mit der Gondel zur Schaubachhütte, über den Panoramaweg zur Madritschhütte und auf einem Serpentinenpfad hinauf zum Madritschjoch (3.123 m), dessen Zustand nach jeder Schneeschmelze anders ist. Die Abfahrt zwischen Mutspitze und Sonnenwand Richtung Zufallhütte wird nach kurzem Schieben immer flüssiger, dann am Stausee entlang durchs Martelltal bis Morter und weiter Richtung Göflan. Rückweg mit Zug oder Shuttle.",
+  "wegbeschreibung": [
+   "Von Sulden mit der Gondel zur Schaubachhütte (2.610 m).",
+   "Panoramaweg zur Madritschhütte – Pause zum Akklimatisieren.",
+   "Ab etwa 3.000 m Serpentinenpfad hinauf zum Madritschjoch (3.123 m), je nach Jahr mehr oder weniger fahrbar.",
+   "Abfahrt mit kurzer Schiebepassage zwischen Mutspitze und Sonnenwand Richtung Zufallhütte.",
+   "Am rechten Ufer des Stausees entlang und hinunter ins Martelltal.",
+   "Auf dem Talradweg bis Morter, dann Richtung Göflan; zurück mit Zug oder Shuttle."
+  ]
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "beste_zeit": "Sommer, früh starten (Passstraße)",
+  "untergrund": null,
+  "quelle": "MOUNTAINBIKE-Magazin 04/2025, „Vier Touren im Reich des Ortlers“ (Foto vom 30.10.2026)",
+  "quelle_url": "https://www.bike-x.de/mtb/touren",
+  "bilder": [
+   {
+    "titel": "MOUNTAINBIKE-Trailguides",
+    "url": "https://www.bike-x.de/mtb/touren"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "region": "Vinschgau & Ortler",
+  "id": "ortler-tibet-trail",
+  "titel": "Tibet-Trail",
+  "start": "Trafoi (oder per Shuttle zum Stilfser Joch)",
+  "km": 26.8,
+  "hm_auf": 1400,
+  "hm_ab": 1400,
+  "dauer_h": 4,
+  "trail_farbe": "schwarz",
+  "offiziell": "Kondition leicht bis sehr schwer (ohne Shuttle), Fahrtechnik schwer S3 (MOUNTAINBIKE)",
+  "einkehr": "Tibethaus, Hotel Franzenshöhe",
+  "tourenbeschreibung": "Ein Must-ride im Ortlergebiet für technisch Versierte. Von Trafoi aus eigener Kraft oder mit Shuttle aufs Stilfser Joch, von dort auf einem Trail am Tibethaus vorbei und durch eine Mondlandschaft unter dem Livrio-Gletscher. Unterhalb des Signalkopfs folgen über 130 Serpentinen, ab Hotel Franzenshöhe wird es leichter und es geht am Bach entlang hinunter nach Trafoi.",
+  "wegbeschreibung": [
+   "Start in Trafoi; wer selbst hochfährt, startet im Sommer früh wegen des Verkehrs auf der Passstraße (alternativ Shuttle).",
+   "Vom Stilfser Joch auf einem Trail bergauf am Tibethaus vorbei.",
+   "Durch die Mondlandschaft unterhalb des Livrio-Gletschers.",
+   "Unterhalb des Signalkopfs über 130 Serpentinen bergab.",
+   "Ab Hotel Franzenshöhe leichter, am Bach entlang hinunter nach Trafoi."
+  ]
+ },
+ {
+  "schwierigkeit": null,
+  "technik": null,
+  "bike": "MTB / E-MTB",
+  "status": null,
+  "notiz": "",
+  "beste_zeit": null,
+  "untergrund": null,
+  "quelle": "MOUNTAINBIKE-Magazin 04/2025, „Vier Touren im Reich des Ortlers“ (Foto vom 30.10.2026)",
+  "quelle_url": "https://www.bike-x.de/mtb/touren",
+  "bilder": [
+   {
+    "titel": "MOUNTAINBIKE-Trailguides",
+    "url": "https://www.bike-x.de/mtb/touren"
+   }
+  ],
+  "hinzugefuegt": "30.10.2026",
+  "region": "Vinschgau & Ortler",
+  "id": "ortler-montoni-tour",
+  "titel": "Montoni-Tour",
+  "start": "Prad am Stilfserjoch",
+  "km": 19,
+  "hm_auf": 960,
+  "hm_ab": 960,
+  "dauer_h": 3,
+  "trail_farbe": "blau",
+  "offiziell": "Kondition mittel bis schwer, Fahrtechnik leicht bis mittel S1–S2 (MOUNTAINBIKE)",
+  "einkehr": "Schartalm",
+  "tourenbeschreibung": "Entspannte Rundtour um den Großmontoni mit zwei schönen Trails. Von Prad über den Suldenbach und einen Wiesenweg nach Lichtenberg, vorbei an Burgruine und Pinethöfen auf Forstwegen zur Schartalm mit Blick auf die Ortlergruppe. Dann der 15er-Trail – einer der schönsten im Vinschgau – mit flüssigen Abschnitten und Spitzkehren, und der 12er-Trail zurück nach Prad.",
+  "wegbeschreibung": [
+   "Start in Prad mit Blick auf die Tschenglser Hochwand, über den Suldenbach.",
+   "Wiesenweg Richtung Lichtenberg, dort Anstieg in den Nationalpark Stilfserjoch.",
+   "Vorbei an Burgruine Lichtenberg und den Pinethöfen über Forstwege zur Schartalm.",
+   "Ab der Schartalm 15er-Trail: kurze Schiebepassage, dann flüssig mit Spitzkehren.",
+   "Weiter auf dem 12er-Trail ins Tal nach Prad.",
+   "Variante über die Stilfser Höfe nach Stilfs mit Tragepassagen, Rückfahrt nach Prad über die Hauptstraße; Rücksicht auf Wanderer."
+  ]
+ }
+]
